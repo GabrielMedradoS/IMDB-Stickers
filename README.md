@@ -1,6 +1,14 @@
 ## IMDB-Stickers
 
-<h4 align='center'>🚧 Under construction 🚧</h4>
+<div>
+  <img src=".github/Imersao Java Alura.png" alt="" width="100%">
+</div>
+<p align="center">
+    <a href="#projeto-">Projeto</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#tecnologias-">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#layout-">Layout</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#licença-%EF%B8%8F">Licença</a>
+</p>
 
 ### Layout 🚧
 
