@@ -15,7 +15,7 @@ Utilizar a API do IMDB dos 250 melhors filmes para criar Stickers
 ## Tecnologias 🛠
 
 <div>
-  <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg">
+  <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg" alt="html5"  height="30" width="40">
 </div>
 
 ## Licença ⚖️

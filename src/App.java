@@ -10,6 +10,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         // fazer uma conexão HTTP e acessar IMDB com os top 250 filmes
         // String apikey = "k_mze333x9";
+        
         String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9";
         URI address = URI.create(url);
         HttpClient client = HttpClient.newHttpClient();
@@ -17,7 +18,7 @@ public class App {
         HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
         String json = response.body();
         
-        // extrair só os dados que interessam (titulo, poster, classificaçao)
+        // extrair só os dados que interessam (titulo, poster, classificação)
         JsonParser parser = new JsonParser();
         List<Map<String, String>> MovieList = parser.parse(json);
 
