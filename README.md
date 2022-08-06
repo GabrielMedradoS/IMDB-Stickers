@@ -1,18 +1,31 @@
-## Getting Started
+## IMDB-Stickers
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<h4 align='center'>🚧 Under construction 🚧</h4>
 
-## Folder Structure
+### Layout 🚧
 
-The workspace contains two folders by default, where:
+<h4 align='center'>🚧 Under construction 🚧</h4>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Projeto 💻
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Imersão Java da ALURA:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Utilizar a API do IMDB dos 250 melhors filmes para criar Stickers
 
-## Dependency Management
+## Tecnologias 🛠
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<div>
+  <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg">
+</div>
+
+## Licença ⚖️
+
+This project is under the MIT license. See the archive [LICENSE]() for more details.
+
+## Autor ✍🏾
+
+| <a  href="https://github.com/gabrielmedrados/"><img src="https://user-images.githubusercontent.com/73303001/126536001-655e3cbd-facd-4de1-992f-b8d9d3656ace.jpg" width="100" alt="perfil"/><br><sub>Gabriel Medrado</sub></a> |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
+[![Linkedin Badge](https://img.shields.io/badge/-GabrielMedrado-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medrado-de-souza-9a30b3206/)
+[![Gmail Badge](https://img.shields.io/badge/-gabriel.medradoo@hotmail.com-1769ff?style=flat-square&logo=Gmail&logoColor=white)](mailto:gabriel.medradoo@hotmail.com)
