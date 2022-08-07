@@ -22,14 +22,14 @@ Utilizar a API do IMDB dos 250 melhors filmes para criar Stickers
 
 ## Tecnologias 🛠
 
-- [JAVA | documentation](https://docs.oracle.com/javase/8/docs/api/)
 <div>
+- [JAVA | documentation](https://docs.oracle.com/javase/8/docs/api/)
   <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg" alt="html5"  height="30" width="40">
 </div>
 
 ### documentation
 
-- [IMDB | API][https://imdb-api.com/api]
+- [IMDB | API](https://imdb-api.com/api)
 - [Class HttpRequest](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/HttpRequest.html)
 - [javax.imageio](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/imageio/package-summary.html)
 - [Class BufferedImage](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/image/BufferedImage.html)
