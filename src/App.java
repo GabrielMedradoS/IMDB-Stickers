@@ -26,11 +26,11 @@ public class App {
         List<Map<String, String>> MovieList = parser.parse(json);
 
         // exibir e manipular os dados
-/*         for (Map<String, String> movie : MovieList) {
+        for (Map<String, String> movie : MovieList) {
             System.out.println(movie.get("title"));
             System.out.println(movie.get("image"));
             System.out.println(movie.get("imDbRating"));
             System.out.println();
-        } */
+        }
     }
 }

@@ -22,9 +22,19 @@ Utilizar a API do IMDB dos 250 melhors filmes para criar Stickers
 
 ## Tecnologias 🛠
 
+- [JAVA | documentation](https://docs.oracle.com/javase/8/docs/api/)
 <div>
   <img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/java.svg" alt="html5"  height="30" width="40">
 </div>
+
+### documentation
+
+- [IMDB | API][https://imdb-api.com/api]
+- [Class HttpRequest](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/HttpRequest.html)
+- [javax.imageio](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/imageio/package-summary.html)
+- [Class BufferedImage](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/image/BufferedImage.html)
+- [Class Graphics2D](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/Graphics2D.html)
+- [Class InputStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/InputStream.html)
 
 ## Licença ⚖️
 
@@ -37,3 +47,9 @@ This project is under the MIT license. See the archive [LICENSE]() for more deta
 
 [![Linkedin Badge](https://img.shields.io/badge/-GabrielMedrado-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medrado-de-souza-9a30b3206/)
 [![Gmail Badge](https://img.shields.io/badge/-gabriel.medradoo@hotmail.com-1769ff?style=flat-square&logo=Gmail&logoColor=white)](mailto:gabriel.medradoo@hotmail.com)
+
+## Instrutores e Instrutoras da Alura nessa imersão
+
+|                  <img src="https://www.alura.com.br/assets/img/imersao-java/jaque-imersao-java-bio.1657213671.png" width="100" alt="perfil"/><br><sub></sub>                   |          <img src="https://www.alura.com.br/assets/img/imersao-java/alexandre-imersao-java-bio.1657213503.png" width="100" alt="perfil"/><br><sub></sub>          |           <img src="https://www.alura.com.br/assets/img/imersao-java/paulo-imersao-java-bio.1657213503.png" width="100" alt="perfil"/><br><sub></sub>            |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![LinkedIn Badge](https://img.shields.io/badge/-JacquelineOliveira-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jacqueline-r-oliveira/) | [![LinkedIn](https://img.shields.io/badge/-AlexandreAquiles-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alexandreaquiles/) | [![LinkedIn Badge](https://img.shields.io/badge/-PauloSilveira-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/paulosilveira) |
