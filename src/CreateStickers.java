@@ -3,16 +3,16 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
 
 import javax.imageio.ImageIO;
 
 public class CreateStickers {
   
-  public void create() throws Exception {
+  public void create(InputStream inputStream, String  outputFile) throws Exception {
     // leitura da imagem
-    InputStream inputStream = new FileInputStream(new File("IMDbAlura/assets/movie.jpg"));
+    /* InputStream inputStream = new FileInputStream(new File("IMDbAlura/assets/movie.jpg")); */
+    /* InputStream inputStream = new URL("https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg").openStream(); */
     BufferedImage originalImage = ImageIO.read(inputStream);
 
     // criar nova imagem em memoria com transparência e com tamanho novo
@@ -35,11 +35,6 @@ public class CreateStickers {
     graphics.drawString("TOPZERA", 195, newHeight - 100);
 
     // escrever a nova imagem em um arquivo
-    ImageIO.write(newImage, "png", new File("IMDbAlura/saida/figurinha.png"));
-  }
-
-  public static void main(String[] args) throws Exception {
-    var geradora = new CreateStickers();
-    geradora.create();
+    ImageIO.write(newImage, "png", new File(outputFile));
   }
 }
