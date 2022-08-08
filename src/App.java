@@ -1,10 +1,5 @@
 import java.io.InputStream;
-import java.net.URI;
 import java.net.URL;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
 import java.util.List;
 import java.util.Map;
 
@@ -13,19 +8,15 @@ import java.util.Map;
 public class App {
     public static void main(String[] args) throws Exception {
         // fazer uma conexão HTTP e acessar IMDB com os top 250 filmes
-
         /* Dotenv dotenv = Dotenv.load();
         String apiKey = dotenv.get("API_KEY"); */
         
        /*  String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9"; */
         String url = "https://api.nasa.gov/planetary/apod?api_key=VUTErVuo4btkNh0PAXI9v3wW1a7vrtEMZiU3o7Yq&start_date=2022-08-01&end_date=2022-08-07";
-        
-        URI address = URI.create(url);
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder(address).GET().build();
-        HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
-        String json = response.body();
-        
+         
+        var http = new ClientHttp();
+        String json = http.searchData(url);
+
         // extrair só os dados que interessam (titulo, poster, classificação)
         JsonParser parser = new JsonParser();
         List<Map<String, String>> contentList = parser.parse(json);
