@@ -38,6 +38,11 @@ _`Aula 2 :`_
 - [Class Graphics2D](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/Graphics2D.html)
 - [Class InputStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/InputStream.html)
 
+_`Aula 3 :`_
+
+- [NASA | API](https://api.nasa.gov/)
+- [getters e setters](https://www.alura.com.br/artigos/nao-aprender-oo-getters-e-setters)
+
 ## Licença ⚖️
 
 This project is under the MIT license. See the archive [LICENSE]() for more details.

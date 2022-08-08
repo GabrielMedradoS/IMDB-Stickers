@@ -10,14 +10,17 @@ public class App {
         /* Dotenv dotenv = Dotenv.load();
         String apiKey = dotenv.get("API_KEY"); */
 
-       /*  String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9"; */
-        String url = "https://api.nasa.gov/planetary/apod?api_key=VUTErVuo4btkNh0PAXI9v3wW1a7vrtEMZiU3o7Yq&start_date=2022-08-01&end_date=2022-08-07";
+        String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9";
+        ContentExtractorIMDB extractor = new ContentExtractorIMDB();
+
+
+       // String url = "https://api.nasa.gov/planetary/apod?api_key=VUTErVuo4btkNh0PAXI9v3wW1a7vrtEMZiU3o7Yq&start_date=2022-08-01&end_date=2022-08-07";
+       // ContentExtractorNasa extractor = new ContentExtractorNasa();
 
         var http = new ClientHttp();
         String json = http.searchData(url);
 
         // exibir e manipular os dados
-        ContentExtractorNasa extractor = new ContentExtractorNasa();
         List<Content> contentList = extractor.pullContents(json);
 
         var Sticker = new CreateStickers();

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class ContentExtractorIMDB {
+public class ContentExtractorIMDB implements IContentExtractor{
   
   public  List<Content> pullContents(String json) {
 
