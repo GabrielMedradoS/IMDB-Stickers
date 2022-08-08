@@ -17,7 +17,9 @@ public class App {
         /* Dotenv dotenv = Dotenv.load();
         String apiKey = dotenv.get("API_KEY"); */
         
-        String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9";
+       /*  String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9"; */
+        String url = "https://api.nasa.gov/planetary/apod?api_key=VUTErVuo4btkNh0PAXI9v3wW1a7vrtEMZiU3o7Yq&start_date=2022-08-01&end_date=2022-08-07";
+        
         URI address = URI.create(url);
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder(address).GET().build();
@@ -26,21 +28,26 @@ public class App {
         
         // extrair só os dados que interessam (titulo, poster, classificação)
         JsonParser parser = new JsonParser();
-        List<Map<String, String>> MovieList = parser.parse(json);
+        List<Map<String, String>> contentList = parser.parse(json);
 
         // exibir e manipular os dados
         var Sticker = new CreateStickers();
-        for (Map<String, String> movie : MovieList) {
+        
+        for (int i = 0; i < 4; i++) {
             
-            String urlImage = movie.get("image");
-            String titleMovie = movie.get("title");
+            Map<String, String> content = contentList.get(i);
+            
+            // retirar oq esta depois do @ para pegar uma img maior
+            String urlImage = content.get("url").replaceAll("(@+)(.*).jpg$", "$1.jpg");
+            
+            String titleMovie = content.get("Title");
             
             InputStream inputStream = new URL(urlImage).openStream();
-            String outputFile = titleMovie + ".png";
+            String outputFile = "IMDbAlura/out/" + titleMovie + ".png";
 
             Sticker.create(inputStream, outputFile);
 
-            System.out.println(movie.get("title"));
+            System.out.println(titleMovie);
             System.out.println();
         }
     }
