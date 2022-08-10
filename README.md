@@ -1,5 +1,16 @@
 ## IMDB-Stickers
 
+<p align="center">
+    <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=b5b30d&labelColor=002d39">
+    <a href="">
+        <img src="https://img.shields.io/badge/Imersão-Java-b5b30d?&labelColor=002d39"></img>
+    </a>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/IMDB-Stickers?color=b5b30d&labelColor=002d39">
+    <a href="https://github.com/GabrielMedradoS/NLW---Heat---2021/blob/master/License">
+        <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=b5b30d&labelColor=002d39">
+    </a>
+</p>
+
 <div>
   <img src=".github/Imersao Java Alura.png" alt="" width="100%">
 </div>
@@ -42,6 +53,9 @@ _`Aula 3 :`_
 
 - [NASA | API](https://api.nasa.gov/)
 - [getters e setters](https://www.alura.com.br/artigos/nao-aprender-oo-getters-e-setters)
+
+<!-- _`Aula 4 :`_
+- [Spring](https://start.spring.io/) -->
 
 ## Licença ⚖️
 

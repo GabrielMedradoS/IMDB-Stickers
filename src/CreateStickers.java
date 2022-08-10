@@ -27,7 +27,7 @@ public class CreateStickers {
     graphics.drawImage(originalImage, 0, 0, null); /* OBS: Imagem antiga */
 
     //configurar fonte
-    var font = new Font(Font.SANS_SERIF, Font.BOLD, 64);
+    var font = new Font(Font.SANS_SERIF, Font.BOLD, 132);
     graphics.setColor(Color.YELLOW);
     graphics.setFont(font);
 
