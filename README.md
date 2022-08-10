@@ -6,7 +6,7 @@
         <img src="https://img.shields.io/badge/Imersão-Java-b5b30d?&labelColor=002d39"></img>
     </a>
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/IMDB-Stickers?color=b5b30d&labelColor=002d39">
-    <a href="https://github.com/GabrielMedradoS/NLW---Heat---2021/blob/master/License">
+    <a href="https://github.com/GabrielMedradoS/IMDB-Stickers/blob/master/License">
         <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=b5b30d&labelColor=002d39">
     </a>
 </p>
@@ -59,7 +59,7 @@ _`Aula 3 :`_
 
 ## Licença ⚖️
 
-This project is under the MIT license. See the archive [LICENSE]() for more details.
+This project is under the MIT license. See the archive [LICENSE](https://github.com/GabrielMedradoS/IMDB-Stickers/blob/master/License) for more details.
 
 ## Autor ✍🏾
 
