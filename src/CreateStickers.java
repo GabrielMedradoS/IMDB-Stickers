@@ -27,12 +27,13 @@ public class CreateStickers {
     graphics.drawImage(originalImage, 0, 0, null); /* OBS: Imagem antiga */
 
     //configurar fonte
-    var font = new Font(Font.SANS_SERIF, Font.BOLD, 132);
+    var font = new Font(Font.SANS_SERIF, Font.BOLD, 130);
     graphics.setColor(Color.YELLOW);
     graphics.setFont(font);
 
+    
     // escrever uma frase na nova imagem
-    graphics.drawString("TOPZERA", 195, newHeight - 100);
+    graphics.drawString("** Ótimo Filme **", 195, newHeight - 100);
 
     // escrever a nova imagem em um arquivo
     ImageIO.write(newImage, "png", new File(outputFile));

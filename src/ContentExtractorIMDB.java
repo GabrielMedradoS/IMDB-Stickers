@@ -14,7 +14,7 @@ public class ContentExtractorIMDB implements IContentExtractor{
 
     // popular a lista de conteúdos
     for (Map<String, String> attributes : attributesList) {
-      String title = attributes.get("title");
+      String title = attributes.get("title").replaceAll("[^a-zA-Z0-9]", " ");
       // retirar oq esta depois do @ para pegar uma img maior
       String urlImage = attributes.get("image").replaceAll("(@+)(.*).jpg$", "$1.jpg");
 

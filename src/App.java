@@ -25,7 +25,7 @@ public class App {
 
         var Sticker = new CreateStickers();
         
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 10; i++) {
             
             Content content = contentList.get(i);
             
