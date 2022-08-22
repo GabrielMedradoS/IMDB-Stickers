@@ -31,8 +31,9 @@ public class App {
             
             InputStream inputStream = new URL(content.getUrlImage()).openStream();
             String outputFile = "out/" + content.getTitle() + ".png";
+            String title = content.getTitle();
            
-            Sticker.create(inputStream, outputFile);
+            Sticker.create(inputStream, outputFile, title);
             
             System.out.println(content.getTitle());
             System.out.println();

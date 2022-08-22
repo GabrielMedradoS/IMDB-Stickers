@@ -1,5 +1,9 @@
 ## IMDB-Stickers
 
+<div align="center">
+  <img src=".github/Imersao Java Alura.png" alt="" width="80%">
+</div>
+
 <p align="center">
     <img alt="Platform" src="https://img.shields.io/static/v1?label=Platform&message=PC&color=b5b30d&labelColor=002d39">
     <a href="">
@@ -11,9 +15,6 @@
     </a>
 </p>
 
-<div>
-  <img src=".github/Imersao Java Alura.png" alt="" width="100%">
-</div>
 <p align="center">
     <a href="#projeto-">Projeto</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#tecnologias-">Tecnologias</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

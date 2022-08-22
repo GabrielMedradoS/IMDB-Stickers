@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 
 public class CreateStickers {
   
-  public void create(InputStream inputStream, String  outputFile) throws Exception {
+  public void create(InputStream inputStream, String  outputFile, String title) throws Exception {
     // leitura da imagem
     /* InputStream inputStream = new FileInputStream(new File("IMDbAlura/assets/movie.jpg")); */
     /* InputStream inputStream = new URL("https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg").openStream(); */
@@ -27,13 +27,13 @@ public class CreateStickers {
     graphics.drawImage(originalImage, 0, 0, null); /* OBS: Imagem antiga */
 
     //configurar fonte
-    var font = new Font(Font.SANS_SERIF, Font.BOLD, 130);
+    var font = new Font(Font.SANS_SERIF, Font.BOLD, 100);
     graphics.setColor(Color.YELLOW);
     graphics.setFont(font);
 
     
     // escrever uma frase na nova imagem
-    graphics.drawString("** Ótimo Filme **", 195, newHeight - 100);
+    graphics.drawString(title, 145, newHeight - 100);
 
     // escrever a nova imagem em um arquivo
     ImageIO.write(newImage, "png", new File(outputFile));
