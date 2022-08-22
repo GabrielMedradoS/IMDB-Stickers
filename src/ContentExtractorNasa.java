@@ -14,7 +14,7 @@ public class ContentExtractorNasa implements IContentExtractor {
 
         // popular a lista de conteúdos
         for (Map<String, String> attributes : attributesList) {
-          String title = attributes.get("title");
+          String title = attributes.get("title").replaceAll("[^a-zA-Z0-9]", " ");;
           String urlImage = attributes.get("url");
 
           var content = new Content(title, urlImage);

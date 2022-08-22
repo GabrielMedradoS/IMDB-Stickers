@@ -10,12 +10,12 @@ public class App {
       /*   Dotenv dotenv = Dotenv.configure().directory("IMdBAlura/src").filename("env").load();
         String apiKey = dotenv.get("API_KEY"); */
 
-        String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9";
-        ContentExtractorIMDB extractor = new ContentExtractorIMDB();
+       /*  String url = "https://imdb-api.com/en/API/Top250Movies/k_mze333x9";
+        ContentExtractorIMDB extractor = new ContentExtractorIMDB(); */
 
 
-       /*  String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-08-01&end_date=2022-08-07";
-        ContentExtractorNasa extractor = new ContentExtractorNasa(); */
+        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-08-01&end_date=2022-08-07";
+        ContentExtractorNasa extractor = new ContentExtractorNasa();
 
         var http = new ClientHttp();
         String json = http.searchData(url);
