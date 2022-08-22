@@ -1,7 +1,7 @@
 ## IMDB-Stickers
 
 <div align="center">
-  <img src=".github/Imersao Java Alura.png" alt="" width="80%">
+  <img src=".github/Imersao Java Alura.png" alt="Imersao Java Alura" width="80%">
 </div>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ### Layout 🚧
 
-<h4 align='center'>🚧 Under construction 🚧</h4>
+<h4 align='center'><img src=".github/stickers.png" alt="stickers" width="80%"></h4>
 
 ## Projeto 💻
 
