@@ -24,7 +24,7 @@
 
 ### Layout 🚧
 
-<h4 align='center'><h4 align='center'><img src=".github/stickers.png" alt="stickers" width="40%"></h4></h4>
+<h4 align='center'><h4 align='center'><img src=".github/github image.png" alt="stickers" width="40%"></h4></h4>
 
 ## Projeto 💻
 
